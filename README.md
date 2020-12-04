@@ -101,17 +101,17 @@ We recommend using a virtual environment, but it is not mandatory.
   Collecting chardet (from -r requirements.txt (line 2))
   Collecting idna (from -r requirements.txt (line 3))
   ...
-  Successfully installed Pygments-2.7.2 certifi-2020.11.8 chardet-3.0.4 idna-2.10 importlib-metadata-3.1.1 py7zr-0.11.0 ...
+  Successfully installed Pygments-2.7.2 certifi-2020.11.8 chardet-3.0.4 py7zr-0.11.0 ...
   (venv_assistini) $ deactivate
     
   $ venv_assistini/bin/python3 assistini.py
   usage: assistini.py [-h] [--version] filename
   assistini.py: error: the following arguments are required: filename
-  2020-12-04T13:47:12.898Z  ERROR, require an existing and readable file!
+  2020-12-04T21:57:12.898Z  ERROR, require an existing and readable file!
     
-  $ venv_assistini/bin/python3 assistini.py vsan-esx-01.vsphere.local-vm@2020-25-1111-49-38.tgz
-  2020-12-04T13:48:49.326Z  Upload "vsan-esx-01.vsphere.local-vm@2020-25-1111-49-38.tgz" now
-  2020-12-04T13:48:59.036Z  API response:
+  $ venv_assistini/bin/python3 assistini.py vsan-esx-01.vsphere.local-vm_2020-25-11@11-49-38.tgz
+  2020-12-04T21:58:49.326Z  Upload "vsan-esx-01.vsphere.local-vm_2020-25-11@11-49-38.tgz" now
+  2020-12-04T21:58:59.036Z  API response:
   {
       "details": [
           {
@@ -123,13 +123,13 @@ We recommend using a virtual environment, but it is not mandatory.
       ],
       "status": "success"
   }
-  2020-12-04T14:10:02.221Z
+  2020-12-04T22:10:02.221Z
   API response:
   {
       "details": [
           {
               "arc": "ESXi7",
-              "finish": "Fri, 04 Dec 2020 22:06:49 GMT",
+              "finish": "Fri, 04 Dec 2020 22:09:49 GMT",
               "hostname": "vsan-esx-01",
               "progress": "DONE",
               "start": "Fri, 04 Dec 2020 21:49:00 GMT",
@@ -138,9 +138,9 @@ We recommend using a virtual environment, but it is not mandatory.
       ],
       "status": "success"
   }
-  2020-12-04T14:10:02.226Z  Downloading "a1b2c3d4e5.7z" now
+  2020-12-04T22:10:02.226Z  Downloading "a1b2c3d4e5.7z" now
   a1b2c3d4e5.7z: 100%|#########################################| 23.0M/23.0M [00:00<00:00, 36.9MB/s]
-  2020-12-04T14:10:08.465Z  DONE, all finished. Files were written into "./a1b2c3d4e5/"
+  2020-12-04T22:10:08.465Z  DONE, all finished. Files were written into "./a1b2c3d4e5/"
   ```
 <br />
 
