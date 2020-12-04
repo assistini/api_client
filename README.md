@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://assistini.com/">
-    <img src="https://assistini.com/static/logo_transparent.png" alt="ASSISTINI" width="80" height="80">
+    <img src="https://assistini.com/static/logo_transparent.png" target="_blank" alt="ASSISTINI" width="80" height="80">
   </a>
 
   <h3 align="center">Support Assistini</h3>
