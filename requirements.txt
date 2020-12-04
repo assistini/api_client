@@ -1,0 +1,14 @@
+certifi
+chardet
+idna
+importlib-metadata
+py7zr
+pycryptodome
+Pygments
+pytz
+requests
+termcolor
+texttable
+urllib3
+zipp
+tqdm
