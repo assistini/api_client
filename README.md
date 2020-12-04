@@ -54,33 +54,36 @@ This project is not related to any 3rd party company of whose support log bundle
 
 This git project contains only the API client to send us the support log bundle and receive the generated reports and files.
 Please visit our main page for all details.
-<br /><br />
+<br />
+<br />
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 Clone this git repository to your local machine.
-```ssh
-git clone https://github.com/assistini/api_client.git
-```
+  ```ssh
+  git clone https://github.com/assistini/api_client.git
+  cd api_client
+  ```
 
 ### Installation
 
 We recommend using a virtual environment, but it is not mandatory.
 * create a venv
   ```sh
-  python3 -m venv venv_3.8.5
+  python3 -m venv venv_assistini
   ```
   
 * install requirements
   ```sh
-  source venv_3.8.5/bin/activate
+  source venv_assistini/bin/activate
   pip install -r requirements.txt
+  deactivate
   ```
 
 * run the tool 
   ```ssh
-  venv_3.8.5/bin/python3 assistini.py <vmsupport.tgz file>
+  venv_assistini/bin/python3 assistini.py <vmsupport.tgz file>
   ```
 <br />
 
