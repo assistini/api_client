@@ -54,7 +54,7 @@ This project is not related to any 3rd party company of whose support log bundle
 
 This git project contains only the API client to send us the support log bundle and receive the generated reports and files.
 Please visit our main page for all details.
-<br />
+<br /><br />
 
 <!-- GETTING STARTED -->
 ## Getting Started
