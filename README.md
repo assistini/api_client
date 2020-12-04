@@ -35,8 +35,7 @@
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
-
-
+<br />
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -55,7 +54,7 @@ This project is not related to any 3rd party company of whose support log bundle
 
 This git project contains only the API client to send us the support log bundle and receive the generated reports and files.
 Please visit our main page for all details.
-
+<br />
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -83,7 +82,8 @@ We recommend using a virtual environment, but it is not mandatory.
   ```ssh
   venv_3.8.5/bin/python3 assistini.py <vmsupport.tgz file>
   ```
-  
+<br />
+
 <!-- CONTACT -->
 ## Contact
 
